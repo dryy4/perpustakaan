@@ -163,7 +163,7 @@ if(empty($_SESSION['id_anggota'])) {
                                                     $is_telat = true;
                                                     $selisih = strtotime($tgl_sekarang) - strtotime($peminjaman['tgl_jatuh_tempo']);
                                                     $hari_telat = floor($selisih / (60 * 60 * 24));
-                                                    $denda_berjalan = $hari_telat * 1000; // Rp 1.000 / hari
+                                                    $denda_berjalan = $hari_telat * 1000; 
                                                 }
                                             }
                                             
