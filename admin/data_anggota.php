@@ -32,7 +32,7 @@
                     <td><?= $anggota['kelas'] ?></td>
                     <td><span class="badge bg-secondary bg-opacity-10 text-dark border"><?= $anggota['username'] ?></span></td>
                     
-                    <td><span class="text-muted small fst-italic">*** Terenkripsi ***</span></td>
+                    <td><span class="text-muted small fst-italic"></span></td>
                     
                     <td>
                         <a href="?halaman=edit_anggota&id=<?= $anggota['id_anggota'] ?>" class="btn btn-warning btn-sm rounded-pill px-3">Edit</a>
